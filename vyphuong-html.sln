@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "vyphuong-html", "vyphuong-html\", "{67E8B3FD-0482-4AE9-984A-F05FD20DC976}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/vyphuong-html"
+		Debug.AspNetCompiler.PhysicalPath = "vyphuong-html\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\vyphuong-html\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/vyphuong-html"
+		Release.AspNetCompiler.PhysicalPath = "vyphuong-html\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\vyphuong-html\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8048"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67E8B3FD-0482-4AE9-984A-F05FD20DC976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E8B3FD-0482-4AE9-984A-F05FD20DC976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
