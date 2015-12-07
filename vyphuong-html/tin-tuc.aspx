@@ -2,6 +2,8 @@
     CodeFile="tin-tuc.aspx.cs" Inherits="tin_tuc" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <title>VY PHƯƠNG</title>
+    <meta name="description" content="VY PHƯƠNG" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphBanner" runat="Server">
 </asp:Content>
@@ -27,8 +29,7 @@
                     </p>
                 </div>
                 <div class="more-details">
-                    <a href="#">
-                        Xem chi tiết</a></div>
+                    <a href="#">Xem chi tiết</a></div>
             </div>
         </div>
         <div class="news-lbox">
@@ -117,6 +118,11 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="pager">
+        <a class="first icon-backward" href="#"></a> <a class="prev icon-caret-left" href="#"></a> <a class="current"
+            href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a>
+        <a class="next icon-caret-right" href="#"></a> <a class="last icon-forward" href="#"></a>
     </div>
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="cphPopup" runat="Server">

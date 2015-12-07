@@ -2,6 +2,8 @@
     CodeFile="gioi-thieu.aspx.cs" Inherits="gioi_thieu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <title>VY PHƯƠNG</title>
+    <meta name="description" content="VY PHƯƠNG" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphBanner" runat="Server">
 </asp:Content>

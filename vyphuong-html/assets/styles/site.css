@@ -1150,7 +1150,7 @@ hr
     line-height: 22px;
     font-weight: 300;
     overflow: hidden;
-    padding: 12px 0;
+    padding: 18px 0;
     width: 100%;
 }
 .news-big {
@@ -1173,7 +1173,7 @@ hr
     overflow: hidden;
     padding-left: 25px;
 }
-.news-lbox .news-name a {
+.news-lbox .news-name a{
     color: #303030;
     display: block;
     font-size: 16px;
@@ -1186,7 +1186,7 @@ hr
     color: #be010d;
     line-height: 36px;
 }
-.news-lbox .date {
+.date {
     color: #a6a6a6;   
 }
 .news-big .date {
@@ -1195,7 +1195,7 @@ hr
 .title-news {
     font-size: 30px;
     background: url(../images/bg-title-news.jpg) no-repeat left bottom;
-    padding-bottom: 17px;
+    padding-bottom: 18px;
 }
 .more-details {
     overflow: hidden;
@@ -1213,6 +1213,14 @@ hr
 }
 .news-lbox .news-name:hover a, .news-lbox .news-name a:hover, .more-details a:hover {
     text-decoration: none;
+}
+.news-title
+{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 36px;
+    color: #be010d;
+    line-height: 36px;
 }
 /*=====================footer=============================*/
 #footer
