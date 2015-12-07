@@ -5,7 +5,8 @@ body
     font-family: 'Open Sans' , sans-serif;
     font-size: 14px;
     line-height: 22px;
-    background-color: #d1ab58;
+    /*background-color: #d1ab58;*/
+    background: url(../images/bg-intro.png) repeat repeat;
 }
 .clr
 {
@@ -136,7 +137,8 @@ hr
     left: 0;
     z-index: 1;
     /*background: url(../images/bg-maincontent-intro.png) repeat-x left top;*/
-    background-color: #d1ab58;
+    /*background-color: #d1ab58;*/
+    background: url(../images/bg-intro-1.png) repeat repeat;
     height: 180px;
 }
 #main-content {
@@ -181,8 +183,14 @@ hr
 #footer .copyright {
     padding: 6px 0;
 }
+.copyright {
+    position: relative;
+    top: -40px;
+    left: 0;
+}
 .copyright, .copyright a {
     padding: 6px 0;
     text-align: center;
     color: #523703;
+    z-index: 1;
 }

@@ -489,7 +489,7 @@ hr
     text-decoration: none;
 }
 /*======================================*/
-.wrapper-news, .wrapper-career 
+.wrapper-news, .wrapper-career
 {
     overflow: hidden;
     width: 100%;
@@ -807,15 +807,18 @@ hr
     width: 100%;
 }
 /*===site home services===*/
-.adv {
+.adv
+{
     margin-bottom: 14px;
     width: 100%;
 }
-.adv a, .adv img {
+.adv a, .adv img
+{
     display: block;
     width: 100%;
 }
-.title-a {
+.title-a
+{
     font-size: 18px;
     line-height: 24px;
     margin-top: 20px;
@@ -825,34 +828,39 @@ hr
     text-transform: uppercase;
     font-weight: 600;
 }
-.box-asibar {
+.box-asibar
+{
     border-top: solid 2px #ebebeb;
     overflow: hidden;
     float: left;
 }
-.list-nav {
+.list-nav
+{
     list-style: none;
     width: 100%;
     float: left;
     padding: 0;
 }
-.list-nav li {
+.list-nav li
+{
     float: left;
-    padding: 20px 0;
+    padding: 12px 0;
     background: url(../images/bg-new-hot.png) repeat-x left bottom;
 }
 .list-nav li:last-child
 {
     background: none;
 }
-.list-nav li a {
+.list-nav li a
+{
     float: left;
     display: block;
-    padding-bottom: 14px;
+    padding-bottom: 7px;
     color: #282828;
     font-weight: 600;
 }
-.list-nav .news-content {
+.list-nav .news-content
+{
     float: left;
     width: 100%;
 }
@@ -882,59 +890,330 @@ hr
 {
     text-decoration: none;
 }
-.news-box .date {
+.news-box .date
+{
     color: #708b70;
     font-size: 11px;
     line-height: 18px;
     padding: 4px 0;
 }
-.wrapper-career {
+.wrapper-career
+{
     overflow: hidden;
     width: 100%;
+    padding-bottom: 24px;
 }
-.wrapper-career .career-main {
+.wrapper-career .career-main
+{
     float: left;
-    padding-top: 8px;
+    padding: 24px 0 0 25px;
+    border: 1px solid #e6e6e6;
     width: 100%;
 }
 .wrapper-career .career-list
 {
     overflow: hidden;
-    padding-left: 25px;
+    float: left;
+    padding: 18px 0 12px;
+    list-style: none;
 }
-.career-box {
+.career-list li
+{
+    float: left;
+}
+.career-box
+{
     color: #484848;
     font-size: 15px;
     font-weight: 300;
     line-height: 22px;
     float: left;
+    width: 100%;
     overflow: hidden;
 }
-.career-box .career-img, .career-img img {
+.career-box .career-img, .career-img img
+{
     display: block;
     min-width: 218px;
     float: left;
 }
 .career-box .career-content
 {
-    float: right;
+    float: left;
     width: 650px;
+    padding-left: 20px;
 }
-.career-box .career-name a {
+.career-box .career-name a
+{
     color: #000;
     display: block;
     font-size: 18px;
     font-weight: 600;
     line-height: 26px;
 }
-.career-box .date {
+.career-box .date
+{
     color: #708b70;
     font-size: 11px;
     line-height: 35px;
-    padding: 4px 46px;
     float: left;
 }
-
+.career-list .career-content
+{
+    width: 284px;
+}
+.career-content .description
+{
+    float: left;
+}
+.career-list .career-box
+{
+    width: 460px;
+    padding-bottom: 14px;
+}
+.career-list .career-img, .career-list .career-img img
+{
+    min-width: 126px;
+}
+.career-list .career-name a
+{
+    font-size: 16px;
+    float: left;
+    line-height: 20px;
+}
+#tb-career td {
+    vertical-align: top;
+}
+.wrapper-880
+{
+    color: #282828;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    width: 100%;
+    margin: 10px 0 23px;
+}
+.product-group
+{
+    margin-left: 1px;
+    margin-right: 0;
+    overflow: hidden;
+}
+.product-group .colno-5
+{
+    float: left;
+    width: 25%;
+}
+.product-group .producta, .product-group .servece-box
+{
+    border: 1px solid #fff;
+    margin-left: -1px;
+    margin-top: -1px;
+    position: relative;
+    z-index: 2;
+}
+.product-img, .product-img img
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.producta .product-name
+{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.producta .product-name a:before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1a2023;
+    opacity: 0.8;
+    z-index: -1;
+}
+.producta .product-name a
+{
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 12px;
+    font-weight: 700;
+}
+.producta:hover .product-name a, .producta .product-name a:hover
+{
+    text-decoration: none;
+}
+.producta:hover .product-name a:before, .producta .product-name a:hover:before
+{
+    background-color: #cd2c34;
+}
+.row-service
+{
+    overflow: hidden;
+    width: 942px;
+    position: relative;
+    left: -12px;
+}
+.row-service .col-box
+{
+    float: left;
+    width: 25%;
+}
+.box-in
+{
+    padding: 35px 15px 55px;
+}
+.logo-img
+{
+    display: inline-block;
+    font-size: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.logo-img img
+{
+    border: 1px solid #b7b7b7;
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+}
+.title-sui a {
+    color: #282828;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 17px;
+}
+.wrapper-face {
+    margin: 0 auto;   
+}
+.face {
+    font-size: 40px;
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    line-height: 50px;
+    padding: 30px 0;
+    text-transform: uppercase;
+    color: #ff9c00;
+    font-weight: 600;
+}
+.face-left {
+    position: absolute;
+    top: 40px;
+    left: 260px;          
+}
+.face-right {
+    position: absolute;
+    top: 40px;
+    right: 260px;          
+}
+/*===about us===*/
+.about-content {
+    overflow: hidden;
+}
+.wrapper-text {
+    color: #282828;
+    overflow: hidden;
+    line-height: 24px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.title-about {
+    color: #282828;
+    font-size: 36px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-family: "Roboto",sans-serif;
+}
+/*===news===*/
+.news-lbox {
+    color: #282828;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 300;
+    overflow: hidden;
+    padding: 12px 0;
+    width: 100%;
+}
+.news-big {
+    font-size: 15px;  
+    line-height: 26px;
+}
+.news-lbox .news-img {
+    display: block;
+    float: left;
+    width: 242px;
+}
+.news-big .news-img {
+    width: 434px;
+}
+.news-lbox .news-img img {
+    display: block;
+    width: 100%;
+}
+.news-lbox .news-content {
+    overflow: hidden;
+    padding-left: 25px;
+}
+.news-lbox .news-name a {
+    color: #303030;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.news-big .news-name a {
+    font-size: 36px;
+    color: #be010d;
+    line-height: 36px;
+}
+.news-lbox .date {
+    color: #a6a6a6;   
+}
+.news-big .date {
+    font-size: 14px;
+}
+.title-news {
+    font-size: 30px;
+    background: url(../images/bg-title-news.jpg) no-repeat left bottom;
+    padding-bottom: 17px;
+}
+.more-details {
+    overflow: hidden;
+    width: 100%;
+}
+.more-details a {
+    background-color: #ff9c00;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 0 20px;
+}
+.news-lbox .news-name:hover a, .news-lbox .news-name a:hover, .more-details a:hover {
+    text-decoration: none;
+}
 /*=====================footer=============================*/
 #footer
 {

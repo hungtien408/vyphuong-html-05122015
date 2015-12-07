@@ -9,7 +9,19 @@
     <asp:ContentPlaceHolder ID="cphBanner" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="cphAside" runat="Server">
+<asp:Content ID="Content3" ContentPlaceHolderID="cphParner" runat="Server">
+    <div class="container">
+        <div class="bx-wrapper wrapper-face">
+            <div class="face-left"><img src="assets/images/img-face-left.jpg" alt="" /></div>
+            <div class="face">
+                Our People your success
+            </div>
+            <div class="face-right">
+                <img src="assets/images/img-face-right.jpg" alt="" /></div>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="cphAside" runat="Server">
     <div class="adv">
         <a href="he-thong-phan-phoi.aspx">
             <img src="assets/images/images-1.jpg" alt=""></a>
@@ -46,59 +58,41 @@
         Tin nổi bật</h3>
     <div class="box-asibar">
         <ul class="list-nav">
-            <li>
-                <a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
+            <li><a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
                 <div class="news-content">
                     Nhuộm tóc, làm đẹp tóc là phương pháp Nhuộm tóc không chỉ làm...
                 </div>
             </li>
-            <li>
-                <a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
+            <li><a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
                 <div class="news-content">
                     Nhuộm tóc, làm đẹp tóc là phương pháp Nhuộm tóc không chỉ làm...
                 </div>
             </li>
-            <li>
-                <a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
+            <li><a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
                 <div class="news-content">
                     Nhuộm tóc, làm đẹp tóc là phương pháp Nhuộm tóc không chỉ làm...
                 </div>
             </li>
-            <li>
-                <a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
+            <li><a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
                 <div class="news-content">
                     Nhuộm tóc, làm đẹp tóc là phương pháp Nhuộm tóc không chỉ làm...
                 </div>
             </li>
         </ul>
-        <p class="see-all"><a href="#">Xem tất cả</a></p>
+        <p class="see-all">
+            <a href="#">Xem tất cả</a></p>
     </div>
     <div class="box-aside">
         <img class="img-responsive" src="assets/images/facebook.jpg" alt="" />
     </div>
-    <h4 class="title-c">
-        THỐNG KÊ TRUY CẬP</h4>
-    <ul class="list-hit">
-        <li class="hit-1"><span>Đang online </span><strong>12</strong></li>
-        <li class="hit-2"><span>Hôm nay </span><strong>256</strong></li>
-        <li class="hit-3"><span>Tuần này </span><strong>1.523</strong></li>
-        <li class="hit-4"><span>Tháng này </span><strong>15.203</strong></li>
-        <li class="hit-5"><span>Tất cả</span>
-            <div id="hitnum">
-                <span class="corner">1</span> <span class="corner">2</span> <span class="corner">3</span>
-                <span class="corner">4</span> <span class="corner">5</span> <span class="corner">6</span>
-                <span class="corner">9</span>
-            </div>
-        </li>
-    </ul>
     <asp:ContentPlaceHolder ID="cphAside" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+<asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>
-<asp:Content ID="Content5" ContentPlaceHolderID="cphPopup" runat="Server">
+<asp:Content ID="Content6" ContentPlaceHolderID="cphPopup" runat="Server">
     <asp:ContentPlaceHolder ID="cphPopup" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>

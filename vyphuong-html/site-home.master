@@ -9,7 +9,40 @@
     <asp:ContentPlaceHolder ID="cphBanner" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="cphAside" runat="Server">
+<asp:Content ID="Content3" ContentPlaceHolderID="cphParner" runat="Server">
+    <div class="container">
+        <div class="list-wrapper parent-wrap">
+            <div class="slider-four">
+                <asp:ListView ID="ListView3" runat="server" DataSourceID="ObjectDataSource3" EnableModelValidation="True">
+                    <ItemTemplate>
+                        <div class="slide">
+                            <a href='<%# Eval("LinkWebsite") %> ' class="parent-img fullbox-img">
+                                <img id="Img1" class="hideo" src='<%# "~/res/partner/" + Eval("PartnerImage") %>'
+                                    visible='<%# string.IsNullOrEmpty( Eval("PartnerImage").ToString()) ? false : 
+true %>' runat="server" alt="" /></a>
+                        </div>
+                    </ItemTemplate>
+                    <LayoutTemplate>
+                        <span runat="server" id="itemPlaceholder" />
+                    </LayoutTemplate>
+                </asp:ListView>
+                <asp:ObjectDataSource ID="ObjectDataSource3" runat="server" SelectMethod="PartnerSelectAll"
+                    TypeName="TLLib.Partner">
+                    <SelectParameters>
+                        <asp:Parameter Name="Keyword" Type="String" />
+                        <asp:Parameter Name="PartnerName" Type="String" />
+                        <asp:Parameter Name="Address" Type="String" />
+                        <asp:Parameter Name="LinkWebsite" Type="String" />
+                        <asp:Parameter DefaultValue="true" Name="IsAvailable" Type="String" />
+                        <asp:Parameter Name="Priority" Type="String" />
+                        <asp:Parameter DefaultValue="true" Name="SortByPriority" Type="String" />
+                    </SelectParameters>
+                </asp:ObjectDataSource>
+            </div>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="cphAside" runat="Server">
     <ul class="list-menu">
         <asp:ListView ID="ListView2" runat="server" DataSourceID="ObjectDataSource2" EnableModelValidation="True">
             <ItemTemplate>
@@ -107,11 +140,11 @@
     <asp:ContentPlaceHolder ID="cphAside" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+<asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>
-<asp:Content ID="Content5" ContentPlaceHolderID="cphPopup" runat="Server">
+<asp:Content ID="Content6" ContentPlaceHolderID="cphPopup" runat="Server">
     <asp:ContentPlaceHolder ID="cphPopup" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>
