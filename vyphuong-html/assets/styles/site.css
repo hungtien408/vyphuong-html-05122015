@@ -1090,6 +1090,15 @@ hr
 {
     padding: 35px 15px 55px;
 }
+.box-in .description {
+    text-align: center;
+    overflow: hidden;
+    margin: 12px 0 20px;
+    width: 100%;
+}
+.box-in .more-details a {
+    margin: 0 42px;
+}
 .logo-img
 {
     display: inline-block;
@@ -1110,6 +1119,9 @@ hr
     display: block;
     width: 100%;
 }
+.title-sui {
+    margin-top: 10px;
+}
 .title-sui a {
     color: #282828;
     display: block;
@@ -1117,7 +1129,6 @@ hr
     font-weight: 600;
     line-height: 22px;
     text-align: center;
-    padding-top: 17px;
 }
 .wrapper-face {
     margin: 0 auto;   
@@ -1238,6 +1249,13 @@ hr
     font-size: 36px;
     color: #be010d;
     line-height: 36px;
+}
+/*===services===*/
+.head-ser {
+    background-color: #fff;
+}
+.head-ser .head-tit {
+    padding: 0;
 }
 /*=====================footer=============================*/
 #footer

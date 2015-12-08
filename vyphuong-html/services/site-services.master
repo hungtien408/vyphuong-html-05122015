@@ -1,5 +1,5 @@
-﻿<%@ Master Language="C#" MasterPageFile="~/services/site.master" AutoEventWireup="true" CodeFile="site-sub.master.cs"
-    Inherits="site_sub" %>
+﻿<%@ Master Language="C#" MasterPageFile="~/services/site.master" AutoEventWireup="true"
+    CodeFile="site-services.master.cs" Inherits="site_services" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -10,6 +10,31 @@
     </asp:ContentPlaceHolder>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphAside" runat="Server">
+    <ul class="list-menu menu-pro">
+        <li><a href="#">Dịch vụ tư vấn <span class="icon-play-sign iconar"></span></a>
+            <ul>
+                <li><a href="#">Quản lý - Tái cấu trúc doanh nghiệp</a></li>
+                <li><a href="#">Hỗ trợ tuyển dụng</a></li>
+                <li><a href="#">Đào tạo - Phát triển nguồn nhân lực</a></li>
+                <li><a href="#">Vấn đề với Người lao động</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Dịch vụ tư vấn <span class="icon-play-sign iconar"></span></a>
+            <ul>
+                <li><a href="#">Dịch vụ vệ sinh công nghiệp</a></li>
+                <li><a href="#">nguồn nhân lực</a></li>
+                <li><a href="#">dịch vụ giặt là</a></li>
+                <li><a href="#">Dán nhãn đóng gói</a></li>
+                <li><a href="#">nhập liệu - thống kê</a></li>
+                <li><a href="#">dịch vụ vận tải</a></li>
+                <li><a href="#">dịch vụ kho bãi</a></li>
+                <li><a href="#">hệ thống mạng</a></li>
+                <li><a href="#">hệ thống máy móc</a></li>
+                <li><a href="#">dịch vụ pg - pb</a></li>
+                <li><a href="#">ký gửi hàng hóa</a></li>
+            </ul>
+        </li>
+    </ul>
     <div class="adv">
         <a href="#">
             <img src="../assets/images/images-1.jpg" alt=""></a>
@@ -41,34 +66,6 @@
                 </a></li>
             </ul>
         </div>
-    </div>
-    <h3 class="title-a">
-        Tin nổi bật</h3>
-    <div class="box-asibar">
-        <ul class="list-nav">
-            <li><a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
-                <div class="news-content">
-                    Nhuộm tóc, làm đẹp tóc là phương pháp Nhuộm tóc không chỉ làm...
-                </div>
-            </li>
-            <li><a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
-                <div class="news-content">
-                    Nhuộm tóc, làm đẹp tóc là phương pháp Nhuộm tóc không chỉ làm...
-                </div>
-            </li>
-            <li><a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
-                <div class="news-content">
-                    Nhuộm tóc, làm đẹp tóc là phương pháp Nhuộm tóc không chỉ làm...
-                </div>
-            </li>
-            <li><a href="#">Những màu nhuộm tóc “gây sốt” năm 2015</a>
-                <div class="news-content">
-                    Nhuộm tóc, làm đẹp tóc là phương pháp Nhuộm tóc không chỉ làm...
-                </div>
-            </li>
-        </ul>
-        <p class="see-all">
-            <a href="#">Xem tất cả</a></p>
     </div>
     <div class="box-aside">
         <img class="img-responsive" src="../assets/images/facebook.jpg" alt="" />
