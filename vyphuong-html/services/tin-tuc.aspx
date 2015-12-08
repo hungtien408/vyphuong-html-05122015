@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-homedv.master" AutoEventWireup="true"
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/services/site-sub.master" AutoEventWireup="true"
     CodeFile="tin-tuc.aspx.cs" Inherits="tin_tuc" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
@@ -15,7 +15,7 @@
     <div class="wrapper-news">
         <div class="news-big news-lbox">
             <a href="#" class="news-img">
-                <img src="assets/images/img-news-big.jpg" alt="" /></a>
+                <img src="../assets/images/img-news-big.jpg" alt="" /></a>
             <div class="news-content">
                 <div class="date">
                     28/07/2015</div>
@@ -29,12 +29,12 @@
                     </p>
                 </div>
                 <div class="more-details">
-                    <a href="#">Xem chi tiết</a></div>
+                    <a href="tin-tuc-chi-tiet.aspx">Xem chi tiết</a></div>
             </div>
         </div>
         <div class="news-lbox">
             <a href="#" class="news-img">
-                <img src="assets/images/img-news-1.jpg" alt="" /></a>
+                <img src="../assets/images/img-news-1.jpg" alt="" /></a>
             <div class="news-content">
                 <div class="date">
                     28/07/2015</div>
@@ -51,7 +51,7 @@
         </div>
         <div class="news-lbox">
             <a href="#" class="news-img">
-                <img src="assets/images/img-news-2.jpg" alt="" /></a>
+                <img src="../assets/images/img-news-2.jpg" alt="" /></a>
             <div class="news-content">
                 <div class="date">
                     28/07/2015</div>
@@ -68,7 +68,7 @@
         </div>
         <div class="news-lbox">
             <a href="#" class="news-img">
-                <img src="assets/images/img-news-3.jpg" alt="" /></a>
+                <img src="../assets/images/img-news-3.jpg" alt="" /></a>
             <div class="news-content">
                 <div class="date">
                     28/07/2015</div>
@@ -85,7 +85,7 @@
         </div>
         <div class="news-lbox">
             <a href="#" class="news-img">
-                <img src="assets/images/img-news-4.jpg" alt="" /></a>
+                <img src="../assets/images/img-news-4.jpg" alt="" /></a>
             <div class="news-content">
                 <div class="date">
                     28/07/2015</div>
@@ -102,7 +102,7 @@
         </div>
         <div class="news-lbox">
             <a href="#" class="news-img">
-                <img src="assets/images/img-news-5.jpg" alt="" /></a>
+                <img src="../assets/images/img-news-5.jpg" alt="" /></a>
             <div class="news-content">
                 <div class="date">
                     28/07/2015</div>

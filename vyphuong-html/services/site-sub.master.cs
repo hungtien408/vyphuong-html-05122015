@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class site_home : System.Web.UI.MasterPage
+public partial class site_sub : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {

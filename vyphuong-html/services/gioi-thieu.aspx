@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-homedv.master" AutoEventWireup="true"
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/services/site-sub.master" AutoEventWireup="true"
     CodeFile="gioi-thieu.aspx.cs" Inherits="gioi_thieu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
@@ -20,7 +20,7 @@
                 là cung cấp những sản phẩm/dịch vụ chăm sóc sức khỏe và làm đẹp mới, độc đáo và
                 hiệu quả đến khách hàng.</p>
             <p style="text-align: center;" >
-            <img src="assets/images/img-about-content.jpg" alt=""/></p>
+            <img src="../assets/images/img-about-content.jpg" alt=""/></p>
             <p>
                 Hiện nay, Công ty chúng tôi đang phân phối sản phẩm chăm sóc tóc chuyên nghiệp CHI
                 – BIOSILK do Farouk Systems Inc., sản xuất sử dụng công nghệ tiên tiến của Hoa Kỳ

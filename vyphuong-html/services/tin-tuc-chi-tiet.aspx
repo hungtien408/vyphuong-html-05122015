@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-homedv.master" AutoEventWireup="true"
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/services/site-sub.master" AutoEventWireup="true"
     CodeFile="tin-tuc-chi-tiet.aspx.cs" Inherits="tin_tuc_chi_tiet" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
@@ -26,7 +26,7 @@
                 Giải thưởng "Sản phẩm cải tiến nhất dành cho mái tóc" tại Lễ trao giải sáng tạo
                 ngành làm đẹp năm 2015 do Tạp chí Refinery bình chọn.</p>
             <p style="text-align: center;">
-                <img src="assets/images/img-news-details-1.jpg" alt="" /></p>
+                <img src="../assets/images/img-news-details-1.jpg" alt="" /></p>
             <p>
                 Olaplex giúp làm tăng các liên kết trong tóc nhưng không giống bất kỳ sản phẩm nào
                 trên thị trường hiện nay. Olaplex sẽ giúp kết nối lại các liên kết đã bị phá vỡ
@@ -37,7 +37,7 @@
                 thức hoá học hoàn toàn mới, đem đến cho các bạn một lựa chọn để chăm sóc mái tóc.
             </p>
             <p style="text-align: center;">
-                <img src="assets/images/img-news-details-2.jpg" alt="" /></p>
+                <img src="../assets/images/img-news-details-2.jpg" alt="" /></p>
             <p>
                 Olaplex giúp làm tăng các liên kết trong tóc nhưng không giống bất kỳ sản phẩm nào
                 trên thị trường hiện nay. Olaplex sẽ giúp kết nối lại các liên kết đã bị phá vỡ

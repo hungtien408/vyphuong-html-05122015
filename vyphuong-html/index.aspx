@@ -87,20 +87,20 @@ true %>' runat="server" alt="" /></a>
                     <div class="box-col element-item">
                         <div class="box-in">
                             <div class="wrap-images">
-                                <a href="san-pham-aspx" class="intro-img">
+                                <a href="san-pham.aspx" class="intro-img">
                                     <img class="img-responsive" src='assets/images/intro-img-2.png' runat="server" alt="" /></a>
                                 <h2 class="name-link">
-                                    <a href="san-pham-aspx">Sản phẩm</a></h2>
+                                    <a href="san-pham.aspx">Sản phẩm</a></h2>
                             </div>
                         </div>
                     </div>
                     <div class="box-col element-item">
                         <div class="box-in">
                             <div class="wrap-images">
-                                <a href="#" class="intro-img">
+                                <a href="services/" class="intro-img">
                                     <img class="img-responsive" src='assets/images/intro-img-3.png' runat="server" alt="" /></a>
                                 <h2 class="name-link">
-                                    <a href="#">Dịch vụ</a></h2>
+                                    <a href="services/">Dịch vụ</a></h2>
                             </div>
                         </div>
                     </div>

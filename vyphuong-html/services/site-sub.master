@@ -1,5 +1,5 @@
-﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-homedv.master.cs"
-    Inherits="site_homedv" %>
+﻿<%@ Master Language="C#" MasterPageFile="~/services/site.master" AutoEventWireup="true" CodeFile="site-sub.master.cs"
+    Inherits="site_sub" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -9,22 +9,10 @@
     <asp:ContentPlaceHolder ID="cphBanner" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="cphParner" runat="Server">
-    <div class="container">
-        <div class="bx-wrapper wrapper-face">
-            <div class="face-left"><img src="assets/images/img-face-left.jpg" alt="" /></div>
-            <div class="face">
-                Our People your success
-            </div>
-            <div class="face-right">
-                <img src="assets/images/img-face-right.jpg" alt="" /></div>
-        </div>
-    </div>
-</asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphAside" runat="Server">
     <div class="adv">
         <a href="he-thong-phan-phoi.aspx">
-            <img src="assets/images/images-1.jpg" alt=""></a>
+            <img src="../assets/images/images-1.jpg" alt=""></a>
     </div>
     <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" SelectMethod="ProductCategorySelectAll"
         TypeName="TLLib.ProductCategory">
@@ -39,17 +27,17 @@
         Hỗ trợ trực tuyến<span class="iconad"></span></h4>
     <div class="support-box">
         <div class="support-img">
-            <img src="assets/images/support-img.jpg" alt="" />
+            <img src="../assets/images/support-img.jpg" alt="" />
         </div>
         <div class="support-content">
             <div class="hotline">
                 Hotline<strong>(+848) 3 9798 606</strong></div>
             <ul class="list-support">
                 <li><a href="#"><span class="iconai">
-                    <img src="assets/images/online.png" alt="" /></span> <span class="name">Ms. Loan</span>
+                    <img src="../assets/images/online.png" alt="" /></span> <span class="name">Ms. Loan</span>
                 </a></li>
                 <li><a href="#" class="call-me"><span class="iconai">
-                    <img src="assets/images/call-my.png" alt="" /></span> <span class="name">Ms. Tung</span>
+                    <img src="../assets/images/call-my.png" alt="" /></span> <span class="name">Ms. Tung</span>
                 </a></li>
             </ul>
         </div>
@@ -83,7 +71,7 @@
             <a href="#">Xem tất cả</a></p>
     </div>
     <div class="box-aside">
-        <img class="img-responsive" src="assets/images/facebook.jpg" alt="" />
+        <img class="img-responsive" src="../assets/images/facebook.jpg" alt="" />
     </div>
     <asp:ContentPlaceHolder ID="cphAside" runat="server">
     </asp:ContentPlaceHolder>
