@@ -11,7 +11,6 @@
     <div class="head head-bg head-ser">
         <h4 class="text-uppercase head-tit">
             Dịch vụ tư vấn</h4>
-        <a href="tin-tuc.aspx" class="more-all">Xem tất cả<span class="icon-play"></span></a>
     </div>
     <div class="wrapper-career">
         <div class="row-service">
@@ -76,7 +75,6 @@
     <div class="head head-bg head-ser">
         <h4 class="text-uppercase head-tit">
             Dịch vụ trọn gói</h4>
-        <a href="tin-tuc.aspx" class="more-all">Xem tất cả<span class="icon-play"></span></a>
     </div>
     <div class="wrapper-career">
         <div class="wrapper-880">
@@ -85,77 +83,148 @@
                 euismod. Tation ullamcorper suscipit lobortis nisldolore eu feugiat nulla facilisis
                 at vero eros et accumsan et iusto odio dignissim</div>
         </div>
-        <div class="product-group">
+        <div class="service-group">
             <div class="colno-5">
-                <div class="producta">
-                    <a href="#" class="product-img">
-                        <img src="../assets/images/service-a-1.jpg" alt="" />
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-1.jpg" alt="" />
                     </a>
-                    <h5 class="product-name">
-                        <a href="#">Dịch vụ vệ sinh công cộng</a></h5>
+                    <h5 class="service-name">
+                        <a href="#">Vệ sinh công nghiệp</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy. 
+                    </div>
                 </div>
             </div>
             <div class="colno-5">
-                <div class="producta">
-                    <a href="#" class="product-img">
-                        <img src="../assets/images/service-a-2.jpg" alt="" />
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-2.jpg" alt="" />
                     </a>
-                    <h5 class="product-name">
+                    <h5 class="service-name">
                         <a href="#">Nguồn nhân lực</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy.
+                    </div>
                 </div>
             </div>
             <div class="colno-5">
-                <div class="producta">
-                    <a href="#" class="product-img">
-                        <img src="../assets/images/service-a-3.jpg" alt="" />
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-3.jpg" alt="" />
                     </a>
-                    <h5 class="product-name">
-                        <a href="#">Dịch vụ giặt là</a></h5>
+                    <h5 class="service-name">
+                        <a href="#">Dịch vụ Giặt là</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy.
+                    </div>
                 </div>
             </div>
             <div class="colno-5">
-                <div class="producta">
-                    <a href="#" class="product-img">
-                        <img src="../assets/images/service-a-4.jpg" alt="" />
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-4.jpg" alt="" />
                     </a>
-                    <h5 class="product-name">
-                        <a href="#">Dán nhãn - đóng gói</a></h5>
+                    <h5 class="service-name">
+                        <a href="#">Dán nhãn - Đóng gói</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy.
+                    </div>
                 </div>
             </div>
             <div class="colno-5">
-                <div class="producta">
-                    <a href="#" class="product-img">
-                        <img src="../assets/images/service-a-5.jpg" alt="" />
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-5.jpg" alt="" />
                     </a>
-                    <h5 class="product-name">
+                    <h5 class="service-name">
                         <a href="#">Hệ thống mạng</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy.
+                    </div>
                 </div>
             </div>
             <div class="colno-5">
-                <div class="producta">
-                    <a href="#" class="product-img">
-                        <img src="../assets/images/service-a-6.jpg" alt="" />
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-6.jpg" alt="" />
                     </a>
-                    <h5 class="product-name">
-                        <a href="#">Dịch vụ kho bãi</a></h5>
+                    <h5 class="service-name">
+                        <a href="#">Dịch vụ bãi kho</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy.
+                    </div>
                 </div>
             </div>
             <div class="colno-5">
-                <div class="producta">
-                    <a href="#" class="product-img">
-                        <img src="../assets/images/service-a-7.jpg" alt="" />
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-7.jpg" alt="" />
                     </a>
-                    <h5 class="product-name">
-                        <a href="#">Dịch vụ vận tải</a></h5>
+                    <h5 class="service-name">
+                        <a href="#">Dịch vụ Vận tải</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy.
+                    </div>
                 </div>
             </div>
             <div class="colno-5">
-                <div class="producta">
-                    <a href="#" class="product-img">
-                        <img src="../assets/images/service-a-8.jpg" alt="" />
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-8.jpg" alt="" />
                     </a>
-                    <h5 class="product-name">
-                        <a href="#">Nhập liệu - thống kê</a></h5>
+                    <h5 class="service-name">
+                        <a href="#">Nhập liệu - Thống kê</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy.
+                    </div>
+                </div>
+            </div>
+            <div class="colno-5">
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-9.jpg" alt="" />
+                    </a>
+                    <h5 class="service-name">
+                        <a href="#">Hệ thống máy móc</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy.
+                    </div>
+                </div>
+            </div>
+            <div class="colno-5">
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-10.jpg" alt="" />
+                    </a>
+                    <h5 class="service-name">
+                        <a href="#">Dịch vụ PB - PG</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy.
+                    </div>
+                </div>
+            </div>
+            <div class="colno-5">
+                <div class="servicea">
+                    <a href="#" class="service-img">
+                        <img src="../assets/images/img-services-11.jpg" alt="" />
+                    </a>
+                    <h5 class="service-name">
+                        <a href="#">Ký gửi hàng hoá</a></h5>
+                    <div class="description">
+                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                        elit, sed diam nonummy.
+                    </div>
                 </div>
             </div>
         </div>

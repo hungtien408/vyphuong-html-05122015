@@ -1010,7 +1010,7 @@ hr
     width: 100%;
     margin: 10px 0 23px;
 }
-.product-group
+.product-group, .service-group
 {
     margin-left: 1px;
     margin-right: 0;
@@ -1021,7 +1021,7 @@ hr
     float: left;
     width: 25%;
 }
-.product-group .producta, .product-group .servece-box
+.product-group .producta
 {
     border: 1px solid #fff;
     margin-left: -1px;
@@ -1256,6 +1256,49 @@ hr
 }
 .head-ser .head-tit {
     padding: 0;
+}
+.service-group 
+{
+    width: 100%
+}
+.service-group .colno-5
+{
+    float: left;
+    width: 448px;
+    border: 1px solid #dadada;
+    margin: 0 10px 18px 0;
+}
+.service-group .servicea
+{
+    margin-left: -1px;
+    margin-top: -1px;
+    position: relative;
+    z-index: 2;
+}
+.service-img, .service-img img
+{
+    display: block;
+    position: relative;
+    width: 230px;
+    float: left;
+    z-index: 1;
+}
+.servicea .service-name a
+{
+    color: #282828;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 12px;
+    font-weight: 700;
+    float: left;
+}
+.service-group .description
+{
+    float: left;
+    width: 210px;
+    padding-left: 12px;
+    overflow: hidden;
 }
 /*=====================footer=============================*/
 #footer

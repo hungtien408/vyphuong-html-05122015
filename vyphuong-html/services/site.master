@@ -213,11 +213,20 @@
             //            $(".menu-pro").accordion("option", "active", 1);
             $('.row-service').textHeight({
                 activetit: true,
-                listcss: [{ cssname: ".title-sui"}],
+                listcss: [{ cssname: ".title-sui" }],
                 wpointb: false,
                 widthpont: 420,
                 desbool: true,
                 listpos: [{ cssnamepos: ".description", cssheightnum: "3"}],
+                max: true
+            });
+            $('.service-group').textHeight({
+                activetit: true,
+                listcss: [{ cssname: ".service-name" }],
+                wpointb: false,
+                widthpont: 420,
+                desbool: true,
+                listpos: [{ cssnamepos: ".description", cssheightnum: "4"}],
                 max: true
             });
         });
