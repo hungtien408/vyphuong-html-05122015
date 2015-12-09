@@ -2,6 +2,8 @@
     AutoEventWireup="true" CodeFile="dich-vu.aspx.cs" Inherits="services_dich_vu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <title>VY PHƯƠNG</title>
+    <meta name="description" content="VY PHƯƠNG" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphBanner" runat="Server">
 </asp:Content>

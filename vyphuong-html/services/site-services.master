@@ -11,7 +11,7 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphAside" runat="Server">
     <ul class="list-menu menu-pro">
-        <li><a href="#">Dịch vụ tư vấn <span class="icon-play-sign iconar"></span></a>
+        <li><a href="#">Dịch vụ tư vấn</a>
             <ul>
                 <li><a href="#">Quản lý - Tái cấu trúc doanh nghiệp</a></li>
                 <li><a href="#">Hỗ trợ tuyển dụng</a></li>
@@ -19,7 +19,7 @@
                 <li><a href="#">Vấn đề với Người lao động</a></li>
             </ul>
         </li>
-        <li><a href="#">Dịch vụ tư vấn <span class="icon-play-sign iconar"></span></a>
+        <li><a href="#">Dịch vụ tư vấn</a>
             <ul>
                 <li><a href="#">Dịch vụ vệ sinh công nghiệp</a></li>
                 <li><a href="#">nguồn nhân lực</a></li>
