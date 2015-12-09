@@ -5,10 +5,6 @@
     <title>VY PHƯƠNG</title>
     <meta name="description" content="VY PHƯƠNG" />
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="cphBanner" runat="Server">
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="cphAside" runat="Server">
-</asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <h1 class="title-about title-news">
         Thông tin nội bộ</h1>
@@ -57,7 +53,7 @@
         </div>
     </div>
     <div class="wrapper-news">
-        <h4>Download tài liệu</h4>
+        <h4 class="title-download">Download tài liệu</h4>
         <ul class="list-download">
             <li><a href="#">Download file báo cáo cuối năm 2015</a></li>
             <li><a href="#">Download file báo cáo cuối năm 2015</a></li>

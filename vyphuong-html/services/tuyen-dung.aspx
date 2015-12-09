@@ -4,10 +4,6 @@
     <title>VY PHƯƠNG</title>
     <meta name="description" content="VY PHƯƠNG" />
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="cphBanner" Runat="Server">
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="cphAside" Runat="Server">
-</asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <h1 class="title-about title-news">
         Tuyển dụng</h1>

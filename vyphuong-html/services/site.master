@@ -86,7 +86,7 @@
                         <li><a href="tin-tuc.aspx">Tin Tức</a></li>
                         <li><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal">Thông tin
                             nội bộ</a></li>
-                        <li class="last"><a href="#">Liên hệ</a></li>
+                        <li class="last"><a href="lien-he.aspx">Liên hệ</a></li>
                     </ul>
                     <div class="logo-bg">
                     </div>
@@ -103,16 +103,6 @@
         <!--end header-->
         <hr />
         <!--main-->
-        <div id="banner">
-            <div class="slider-wrapper">
-                <div id="slider" class="nivoSlider">
-                    <a href="#">
-                        <img src="../assets/images/banner-ser-1.jpg" alt="" /></a> <a href="#">
-                            <img src="../assets/images/banner-ser-2.jpg" alt="" /></a> <a href="#">
-                                <img src="../assets/images/banner-ser-3.jpg" alt="" /></a>
-                </div>
-            </div>
-        </div>
         <asp:ContentPlaceHolder ID="cphBanner" runat="server">
         </asp:ContentPlaceHolder>
         <div id="mainContent" class="container">

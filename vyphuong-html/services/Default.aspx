@@ -5,10 +5,6 @@
     <title>VY PHƯƠNG</title>
     <meta name="description" content="VY PHƯƠNG" />
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="cphBanner" runat="Server">
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="cphAside" runat="Server">
-</asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="head">
         <h4 class="text-uppercase head-tit">

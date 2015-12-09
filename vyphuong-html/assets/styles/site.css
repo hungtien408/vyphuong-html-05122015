@@ -1482,18 +1482,269 @@ hr
     border-color: #be010d;
 }
 /*===download===*/
+.wrapper-news .title-download
+{
+    background: url(../images/bg-download.png) repeat-x left bottom;
+    font-size: 18px;
+    line-height: 36px;
+    color: #282828;
+    padding-bottom: 10px;
+}
 .list-download {
     padding: 0;
     margin: 0;
+    background: url(../images/bg-download.png) repeat-x left top;
 }
 .list-download li {
     list-style: none;
-    padding: 20px 0;
     margin: 0;
-    
+    float: left;
+    width: 100%;
+    background: url(../images/bg-download.png) repeat-x left bottom;
 }
 .list-download li a {
     float: left;
+    padding: 10px 0 10px 42px;
+    color: #0061a5;
+    font-size: 16px;
+    line-height: 36px;
+    background: url(../images/icon-download.png) no-repeat left center;
+    font-weight: 600;
+}
+/*===contact===*/
+.contact-wrapper {
+    margin: 80px 0;
+    overflow: hidden;
+}
+.contact-left {
+    float: left;
+    width: 460px;
+}
+.contact-left .address-contact, .contact-left .address-contact h2 {
+    float: left;
+    font-size: 18px;
+    line-height: 22px;
+    color: #be010d;
+}
+.contact-left .address-contact {
+    padding-left: 20px;
+    border-left: 1px solid #d9d9d9;   
+}
+.contact-left .address-contact h2 {
+    line-height: 36px;
+    font-weight: 600;
+}
+.contact-left .address-content {
+    float: left;
+    padding: 10px 0;
+}
+.address-content p {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+.address-content p, .address-content p a {
+    color: #363636;
+}
+.address-content .icon-p {
+    float: left;
+    margin-top: 4px;
+    padding-right: 9px;
+}
+.contact-right {
+    float: right;
+    width: 700px;
+}
+.send-mail {
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 17px;
+    background: url(../images/line-contact.png) repeat-x left top;
+}
+.send-mail h2 {
+    float: left;
+    color: #4c4c4c;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.send-mail .node {
+    color: #686868;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    width: 445px;
+    text-transform: uppercase;
+    float: left;
+}
+.send-mail .form-group {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 9px;
+    background: none;
+}
+.form-group .control-label {
+    float: left;
+    font-size: 13px;
+    line-height: 26px;
+    width: 80px;
+    color: #686868;
+}
+.form-group .contact-input {
+    overflow: hidden;   
+}
+.form-control {
+    height: 34px;
+    width: 90%;
+    display: block;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+    box-sizing: border-box;
+
+}
+.contact-input .form-control {
+    line-height: 27px;
+    padding: 0 12px;
+    font-size: 13px;
+    border-color: #cacaca;
+    color: #383737;
+}
+.text-area .form-control {
+    height: 102px;
+    resize: none;
+}
+.form-control.text-2 {
+    width: 220px;
+}
+.wcodes .form-control {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    width: 95px;
+}
+.wcodes .RadCaptcha {
+    overflow: hidden;
+    padding-left: 5px;
+}
+.error, .lb-error {
+    color: #ff0000;
+}
+.btn-button .contact-input {
+    padding-left: 58px;
+}
+.contact-input .btn-send{
+    width: 92px;
+    height: 26px;
+    background-color: #0086c4;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.contact-input .btn-send:hover {
+    background-color: #d40415;
+}
+.mapw {
+    margin-left: -1px;
+}
+.map .map-content {
+    overflow: hidden;
+    height: 487px;
+    width: 100%;
+}
+#mapwrap {
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #D9D9D9;
+    padding: 1px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.contact .map, #mapwrap {
+    height: 491px;
+    width: 100%;
+}
+#map {
+    height: 600px;
+}
+#map .box {
+    width: 520px;
+}
+#map .box, #map .box a {
+    font-size: 12px;
+    line-height: 16px;
+    color: #656565;
+}
+#map .box .wrap-mapbox {
+    
+}
+#map .box .contact-1 {
+    background: url(../images/icon-c-1.png) no-repeat 3px 5px;
+}
+#map .box .contact-2 {
+    background: url(../images/icon-c-2.png) no-repeat 3px 5px;
+}
+#map .box .contact-3 {
+    background: url(../images/icon-c-3.png) no-repeat 3px 5px;
+}
+#map .box p {
+    padding: 12px 0 0 24px;
+    margin: 0;
+}
+.wrap-mapbox {
+    color: #707070;
+    overflow: hidden;
+}
+.wrap-mapbox i {
+    display: block;
+    font-size: 11px;
+    line-height: 16px;
+}
+.map-title {
+    overflow: hidden;
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+}
+.map-title .search-map {
+    overflow: hidden;
+    padding-right: 90px;
+    position: relative;
+    width: 350px;
+}
+.search-map .getdiretion {
+    cursor: pointer;
+    font-size: 11px;
+    padding: 0 10px;
+    right: 0;
+    top: 1px;
+    position: absolute;
+    width: 90px;
+}
+.search-map .text-search, .search-map .getdiretion {
+    background: #fff;
+    border: solid 1px #ccc;
+    color: #707070;
+    display: block;
+    font-size: 12px;
+    height: 24px;
+    line-height: 20px;
+}
+.search-map .search-inmap {
+    overflow: hidden;
+    padding-right: 3px;
+}
+.search-map .text-search {
+    width: 100%;
 }
 /*=====================footer=============================*/
 #footer
