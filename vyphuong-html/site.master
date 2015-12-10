@@ -200,6 +200,13 @@ true %>' runat="server" alt="" /></a>
     <script src="assets/js/jquery.elevatezoom.js" type="text/javascript"></script>
     <script src="assets/js/slick.min.js" type="text/javascript"></script>
     <script src="assets/js/jquery.main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#zoom_01").elevateZoom({
+                cursor: 'move'
+            });
+        });
+    </script>
     <!--active-->
     <div id="runScript" runat="server">
     </div>

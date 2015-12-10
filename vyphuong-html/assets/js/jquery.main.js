@@ -88,9 +88,6 @@ function myfunload() {
         listpos: [{ cssnamepos: ".description", cssheightnum: "4"}],
         max: true
     });
-    $("#zoom_01").elevateZoom({
-        cursor: 'move'
-    });
     if ($("#galleryLists").size() == 1) {
         $('#galleryLists .slider-for').slick({
             infinite: true,

@@ -1618,6 +1618,49 @@ hr
     background-color: #be010d;
     border-color: #be010d;
 }
+/*=popup nop ho so=*/
+.modal-file {
+    background: #fefefe url(../images/bg-popup.png) no-repeat left bottom;
+    height: 715px;
+}
+.form-file
+{
+    width: 600px;
+    float: none;
+}
+.form-file .form-input {
+    overflow: hidden;
+    padding: 4px 0;
+    width: 100%;
+}
+.form-input .form-lb {
+    color: #483f2e;
+    display: block;
+    float: left;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 28px;
+    width: 180px;
+}
+.radioList {
+    float: left;
+    width: 140px;
+}
+.radioList input {
+    float: left;
+    margin-top: 3px;
+}
+.form-input .radioList label {
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.form-file .btn
+{
+    margin: 0 180px;
+}
 /*===download===*/
 .wrapper-news .title-download
 {
