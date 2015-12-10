@@ -1,18 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/services/site.master" AutoEventWireup="true"
-    CodeFile="lien-he.aspx.cs" Inherits="services_lien_he" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true"
+    CodeFile="lien-he.aspx.cs" Inherits="lien_he" %>
 <%@ Register TagPrefix="asp" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=vi"></script>
-    <script src="../assets/js/google-maps.js" type="text/javascript"></script>
+    <script src="assets/js/google-maps.js" type="text/javascript"></script>
     <title>VY PHƯƠNG</title>
     <meta name="description" content="VY PHƯƠNG" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphBanner" runat="Server">
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="cphAside" runat="Server">
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+<asp:Content ID="Content3" ContentPlaceHolderID="cphMainContent" runat="Server">
     <asp:ScriptManager ID="ScriptManager1" runat="server">
     </asp:ScriptManager>
     <div class="contact-wrapper">
@@ -23,19 +20,19 @@
                 <div class="address-content">
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-1.png" alt="" /></span><strong>Địa chỉ: </strong>
+                            <img src="assets/images/icon-c-1.png" alt="" /></span><strong>Địa chỉ: </strong>
                         Số 18, Ngách 19/15 Kim Đồng, TP.Hà Nội</p>
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-2.png" alt="" /></span><strong>Điện thoại:
+                            <img src="assets/images/icon-c-2.png" alt="" /></span><strong>Điện thoại:
                         </strong>(04) 3664 9263</p>
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-3.png" alt="" /></span><strong>Fax: </strong>
+                            <img src="assets/images/icon-c-3.png" alt="" /></span><strong>Fax: </strong>
                         (04) 3664 9265</p>
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-4.png" alt="" /></span><strong>Email: </strong>
+                            <img src="assets/images/icon-c-4.png" alt="" /></span><strong>Email: </strong>
                         <a href="mailTo:vinacarepharma@gmail.com">vinacarepharma@gmail.com</a></p>
                 </div>
             </div>
@@ -45,19 +42,19 @@
                 <div class="address-content">
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-1.png" alt="" /></span><strong>Địa chỉ: </strong>
+                            <img src="assets/images/icon-c-1.png" alt="" /></span><strong>Địa chỉ: </strong>
                         312/10/15 Trịnh Đình Trọng, P.Hoà Thạnh, Q.Tân Phú, TP.HCM</p>
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-2.png" alt="" /></span><strong>Điện thoại:
+                            <img src="assets/images/icon-c-2.png" alt="" /></span><strong>Điện thoại:
                         </strong>(08) 3976 0728 - (08) 3976 0729</p>
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-3.png" alt="" /></span><strong>Fax: </strong>
+                            <img src="assets/images/icon-c-3.png" alt="" /></span><strong>Fax: </strong>
                         (08) 3976 0730</p>
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-4.png" alt="" /></span><strong>Email: </strong>
+                            <img src="assets/images/icon-c-4.png" alt="" /></span><strong>Email: </strong>
                         <a href="mailTo:vinacarepharma@gmail.com">vinacarepharma@gmail.com</a></p>
                 </div>
             </div>
@@ -67,11 +64,11 @@
                 <div class="address-content">
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-1.png" alt="" /></span><strong>Địa chỉ: </strong>
+                            <img src="assets/images/icon-c-1.png" alt="" /></span><strong>Địa chỉ: </strong>
                         312/10/15 Trịnh Đình Trọng, P.Hoà Thạnh, Q.Tân Phú, TP.HCM</p>
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-2.png" alt="" /></span><strong>Điện thoại:
+                            <img src="assets/images/icon-c-2.png" alt="" /></span><strong>Điện thoại:
                         </strong>(08) 3976 0728 - (08) 3976 0729</p>
                     <p>
                         <span class="icon-p">
@@ -79,7 +76,7 @@
                         (08) 3976 0730</p>
                     <p>
                         <span class="icon-p">
-                            <img src="../assets/images/icon-c-4.png" alt="" /></span><strong>Email: </strong>
+                            <img src="assets/images/icon-c-4.png" alt="" /></span><strong>Email: </strong>
                         <a href="mailTo:vinacarepharma@gmail.com">vinacarepharma@gmail.com</a></p>
                 </div>
             </div>
@@ -143,7 +140,7 @@
                             <asp:RadCaptcha ID="RadCaptcha1" ForeColor="Red" Font-Bold="True" ValidationGroup="Register"
                                 runat="server" ErrorMessage="+ Mã an toàn: không chính xác." ValidatedTextBoxID="txtVerifyCode"
                                 Display="Dynamic" CaptchaLinkButtonText="Refesh" EnableRefreshImage="True">
-                                <CaptchaImage Height="35" Width="135" RenderImageOnly="True" />
+                                <captchaimage height="35" width="135" renderimageonly="True" />
                             </asp:RadCaptcha>
                         </div>
                     </div>
@@ -216,5 +213,5 @@
         </div>
     </div>
 </asp:Content>
-<asp:Content ID="Content5" ContentPlaceHolderID="cphPopup" runat="Server">
+<asp:Content ID="Content4" ContentPlaceHolderID="cphPopup" runat="Server">
 </asp:Content>

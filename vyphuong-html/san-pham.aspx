@@ -1,6 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="san-pham.aspx.cs" Inherits="san_pham" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site-sub.master" AutoEventWireup="true" CodeFile="san-pham.aspx.cs" Inherits="san_pham" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <title>VY PHƯƠNG</title>
+    <meta name="description" content="VY PHƯƠNG" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphAside" runat="Server">
 </asp:Content>

@@ -1,0 +1,150 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-sub.master.cs"
+    Inherits="site_sub" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="cphBanner" runat="Server">
+    <div id="banner">
+        <div class="slider-wrapper">
+            <div id="slider" class="nivoSlider">
+                <asp:ListView ID="ListView1" runat="server" DataSourceID="ObjectDataSource1" EnableModelValidation="True">
+                    <ItemTemplate>
+                        <a href='<%# Eval("Website") %> '>
+                            <img src='<%# "~/res/advertisement/" + Eval("FileName") %>' visible='<%# string.IsNullOrEmpty( Eval("FileName").ToString()) ? false : 
+true %>' runat="server" alt="" /></a>
+                    </ItemTemplate>
+                    <LayoutTemplate>
+                        <span runat="server" id="itemPlaceholder" />
+                    </LayoutTemplate>
+                </asp:ListView>
+                <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="AdsBannerSelectAll"
+                    TypeName="TLLib.AdsBanner">
+                    <SelectParameters>
+                        <asp:Parameter Name="StartRowIndex" Type="String" />
+                        <asp:Parameter Name="EndRowIndex" Type="String" />
+                        <asp:Parameter Name="AdsCategoryID" Type="String" DefaultValue="1" />
+                        <asp:Parameter Name="CompanyName" Type="String" />
+                        <asp:Parameter Name="Website" Type="String" />
+                        <asp:Parameter Name="FromDate" Type="String" />
+                        <asp:Parameter Name="ToDate" Type="String" />
+                        <asp:Parameter DefaultValue="true" Name="IsAvailable" Type="String" />
+                        <asp:Parameter Name="Priority" Type="String" />
+                        <asp:Parameter DefaultValue="true" Name="SortByPriority" Type="String" />
+                    </SelectParameters>
+                </asp:ObjectDataSource>
+            </div>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="cphMainContent" runat="Server">
+    <div id="colAside">
+        <ul class="list-menu">
+            <asp:ListView ID="ListView2" runat="server" DataSourceID="ObjectDataSource2" EnableModelValidation="True">
+                <ItemTemplate>
+                    <li><a href='<%# progressTitle(Eval("ProductCategoryName")) + "-p-" + Eval("ProductCategoryID")+ ".aspx" %>'>
+                        <%# Eval("ProductCategoryName") %>
+                        <span class="icon-play-sign iconar"></span></a></li>
+                </ItemTemplate>
+                <LayoutTemplate>
+                    <span runat="server" id="itemPlaceholder" />
+                </LayoutTemplate>
+            </asp:ListView>
+        </ul>
+        <asp:ObjectDataSource ID="ObjectDataSource2" runat="server" SelectMethod="ProductCategorySelectAll"
+            TypeName="TLLib.ProductCategory">
+            <SelectParameters>
+                <asp:Parameter Name="parentID" Type="Int32" />
+                <asp:Parameter DefaultValue="1" Name="increaseLevelCount" Type="Int32" />
+                <asp:Parameter Name="IsShowOnMenu" Type="String" />
+                <asp:Parameter Name="IsShowOnHomePage" Type="String" />
+            </SelectParameters>
+        </asp:ObjectDataSource>
+        <%-- <h4 class="title-a">Video</h4>
+                    <div class="box-aside video-box">
+                        <div id="jwplayer"></div>
+                        <asp:ListView ID="ListView4" runat="server"
+                            DataSourceID="ObjectDataSource4"
+                            EnableModelValidation="True">
+                            <ItemTemplate>
+                                <script type="text/javascript">
+                                    $(document).ready(function () {
+                                        jwplayer('jwplayer').setup({
+                                            file: "<%# Eval("GLobalEmbedScript") %>",
+                                            flashplayer: "assets/js/jwplayer.flash.swf",
+                                            image: "res/video/<%# Eval("GLobalEmbedScript") %>",
+                                            height: 190,
+                                            width: 251
+                                        });
+                                        jwplayer('jwplayer').play();
+                                    });
+                                </script>
+                            </ItemTemplate>
+                            <LayoutTemplate>
+                                <span runat="server" id="itemPlaceholder" />
+                            </LayoutTemplate>
+                        </asp:ListView>
+                        <asp:ObjectDataSource ID="ObjectDataSource4" runat="server"
+                            SelectMethod="VideoSelectAll" TypeName="TLLib.Video">
+                            <SelectParameters>
+                                <asp:Parameter Name="Title" Type="String" />
+                                <asp:Parameter Name="Description" Type="String" />
+                                <asp:Parameter Name="VideoCategoryID" Type="String" />
+                                <asp:Parameter DefaultValue="true" Name="IsAvailable" Type="String" />
+                                <asp:Parameter Name="Priority" Type="String" />
+                                <asp:Parameter DefaultValue="true" Name="SortByPriority" Type="String" />
+                            </SelectParameters>
+                        </asp:ObjectDataSource>
+                    </div>--%>
+        <h4 class="title-b">
+            Hỗ trợ trực tuyến<span class="iconad"></span></h4>
+        <div class="support-box">
+            <div class="support-img">
+                <img src="assets/images/support-img.jpg" alt="" />
+            </div>
+            <div class="support-content">
+                <div class="hotline">
+                    Hotline<strong>(+848) 3 9798 606</strong></div>
+                <ul class="list-support">
+                    <li><a href="#"><span class="iconai">
+                        <img src="assets/images/online.png" alt="" /></span> <span class="name">Ms. Loan</span>
+                    </a></li>
+                    <li><a href="#" class="call-me"><span class="iconai">
+                        <img src="assets/images/call-my.png" alt="" /></span> <span class="name">Ms. Tung</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="box-aside">
+            <img class="img-responsive" src="assets/images/facebook.jpg" alt="" />
+        </div>
+        <h4 class="title-c">
+            THỐNG KÊ TRUY CẬP</h4>
+        <ul class="list-hit">
+            <li class="hit-1"><span>Đang online </span><strong>12</strong></li>
+            <li class="hit-2"><span>Hôm nay </span><strong>256</strong></li>
+            <li class="hit-3"><span>Tuần này </span><strong>1.523</strong></li>
+            <li class="hit-4"><span>Tháng này </span><strong>15.203</strong></li>
+            <li class="hit-5"><span>Tất cả</span>
+                <div id="hitnum">
+                    <span class="corner">1</span> <span class="corner">2</span> <span class="corner">3</span>
+                    <span class="corner">4</span> <span class="corner">5</span> <span class="corner">6</span>
+                    <span class="corner">9</span>
+                </div>
+            </li>
+        </ul>
+        <asp:ContentPlaceHolder ID="cphAside" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="colMain">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="clr">
+    </div>
+</asp:Content>
+<asp:Content ID="Content6" ContentPlaceHolderID="cphPopup" runat="Server">
+    <asp:ContentPlaceHolder ID="cphPopup" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

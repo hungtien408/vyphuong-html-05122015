@@ -530,6 +530,143 @@ hr
     color: #be010d;
     text-decoration: none;
 }
+/*===product details===*/
+.product-details {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 38px;
+    margin-top: 25px;
+}
+.product-details .details-left {
+    position: relative;
+    float: left;
+    width: 380px;
+}
+.details-left .zoomWrapper {
+    border: 1px solid #dedede;
+    position: relative;
+}
+.zoomContainer 
+{
+    border: 1px solid #dedede;
+    z-index: 10;
+}
+.product-details .details-right {
+    float: right;
+    width: 500px;
+}
+.details-right  .wrap-code {
+    font-size: 14px;
+    line-height: 22px;
+}
+.wrap-code .pro-code {
+    float: left;
+    width: 65%;
+    font-style: italic;
+    color: #be010d;
+    padding: 10px 0 12px;
+}
+.details-right .content {
+    font-size: 15px;
+    line-height: 24px;
+    color: #282828;
+    text-align: justify;
+}
+.details-right .title-details {
+    color: #282828;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: normal;
+}
+.details-right .content {
+    font-size: 13px;
+    line-height: 30px;
+    color: #282828;
+    text-align: justify;
+}
+.title-same {
+    font-size: 18px;
+    line-height: 20px;
+    color: #282828;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+/*===Library===*/
+.library-group {
+    margin-left: 1px;
+    margin-right: 0;
+    overflow: hidden;
+    position: relative;
+    left: -2px;
+    top: 0;
+    width: 950px;
+}
+.library-group .colno-5 {
+    float: left;
+    width: 316px;
+    padding: 0 30px 30px 0;
+}
+.library-group .librarya {
+    border: 1px solid #FFF;
+    margin-left: -1px;
+    margin-top: -1px;
+    position: relative;
+    z-index: 2;
+}
+.library-img, .library-img img {
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.librarya .library-name {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.librarya .library-name a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 12px;
+    text-align: center;
+}
+.librarya .library-name a:before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1a2023;
+    opacity: 0.8;
+    z-index: -1;
+}
+.librarya:hover .library-name a, .librarya .library-name a:hover
+{
+    text-decoration: none;
+}
+.librarya:hover .library-name a:before, .librarya .library-name a:hover:before
+{
+    background-color: #cd2c34;
+}
+.wrapper-video {
+    overflow: hidden;
+    margin: 20px 0 0;
+    width: 100%;
+}
+.wrapper-video .video-details {
+    vertical-align: top;
+    float: left;
+    overflow: hidden;
+    width: 70%;
+    margin: 0 136px;
+}
 /*======================================*/
 .wrapper-news, .wrapper-career
 {
@@ -1513,7 +1650,7 @@ hr
 }
 /*===contact===*/
 .contact-wrapper {
-    margin: 80px 0;
+    margin-top: 80px;
     overflow: hidden;
 }
 .contact-left {
@@ -1560,25 +1697,25 @@ hr
 .send-mail {
     float: left;
     width: 100%;
-    padding-left: 20px;
     padding-top: 17px;
     background: url(../images/line-contact.png) repeat-x left top;
 }
 .send-mail h2 {
     float: left;
-    color: #4c4c4c;
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 20px;
+    color: #adadad;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 .send-mail .node {
-    color: #686868;
+    color: #737373;
     font-size: 13px;
-    line-height: 18px;
-    margin-bottom: 20px;
+    line-height: 15px;
+    margin-bottom: 24px;
     width: 445px;
-    text-transform: uppercase;
     float: left;
+    font-style: italic;
 }
 .send-mail .form-group {
     float: left;
@@ -1589,10 +1726,11 @@ hr
 }
 .form-group .control-label {
     float: left;
-    font-size: 13px;
-    line-height: 26px;
-    width: 80px;
-    color: #686868;
+    font-size: 16px;
+    line-height: 24px;
+    width: 90px;
+    font-weight: 500;
+    color: #282828;
 }
 .form-group .contact-input {
     overflow: hidden;   
@@ -1627,7 +1765,7 @@ hr
     float: left;
     height: 35px;
     line-height: 35px;
-    width: 95px;
+    width: 120px;
 }
 .wcodes .RadCaptcha {
     overflow: hidden;
@@ -1637,19 +1775,18 @@ hr
     color: #ff0000;
 }
 .btn-button .contact-input {
-    padding-left: 58px;
+    padding-left: 90px;
 }
 .contact-input .btn-send{
-    width: 92px;
-    height: 26px;
-    background-color: #0086c4;
+    width: 120px;
+    height: 35px;
+    background-color: #ff9c00;
     border: none;
     color: #fff;
     cursor: pointer;
     margin: 0;
     padding: 0;
-    font-size: 12px;
-    border-radius: 20px;
+    font-size: 16px;
 }
 .contact-input .btn-send:hover {
     background-color: #d40415;
@@ -1673,36 +1810,37 @@ hr
     height: 491px;
     width: 100%;
 }
-#map {
-    height: 600px;
+.mapbox .box {
+    width: 420px;
 }
-#map .box {
-    width: 520px;
-}
-#map .box, #map .box a {
+.mapbox .box, .mapbox.box a {
     font-size: 12px;
     line-height: 16px;
     color: #656565;
+    padding-left: 12px;
 }
-#map .box .wrap-mapbox {
-    
-}
-#map .box .contact-1 {
+.mapbox .box .contact-1 {
     background: url(../images/icon-c-1.png) no-repeat 3px 5px;
 }
-#map .box .contact-2 {
+.mapbox .box .contact-2 {
     background: url(../images/icon-c-2.png) no-repeat 3px 5px;
 }
-#map .box .contact-3 {
+.mapbox .box .contact-3 {
     background: url(../images/icon-c-3.png) no-repeat 3px 5px;
 }
-#map .box p {
-    padding: 12px 0 0 24px;
+.mapbox .box p {
+    padding-top: 6px;
     margin: 0;
 }
+.mapbox .box h2 {
+    color: #be010d; 
+    font-size: 14px;
+    font-weight: 600;
+}
 .wrap-mapbox {
-    color: #707070;
+    color: #4d4c4c;
     overflow: hidden;
+    margin-bottom: 35px;
 }
 .wrap-mapbox i {
     display: block;
@@ -1720,6 +1858,11 @@ hr
     padding-right: 90px;
     position: relative;
     width: 350px;
+}
+.mapbox
+{
+    height: 400px;
+    width: 100%;
 }
 .search-map .getdiretion {
     cursor: pointer;
@@ -1745,6 +1888,19 @@ hr
 }
 .search-map .text-search {
     width: 100%;
+}
+.wcodes img {
+    float: left;
+}
+.wcodes .rcRefreshImage {
+    background: transparent url("../images/refresh.png") no-repeat scroll left center;
+    display: block;
+    float: left;
+    text-indent: -9999em;
+    margin-left: 10px;
+    margin-top: 9px;
+    height: 22px;
+    width: 22px;
 }
 /*=====================footer=============================*/
 #footer

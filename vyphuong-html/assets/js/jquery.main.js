@@ -64,6 +64,57 @@ function myfunload() {
             sliderpro.startAuto();
         });
     }
+    $('.menu-pro').accordion({
+        collapsible: true,
+        heightStyle: "content"
+        //icons: icons
+    });
+    $(".menu-pro").accordion("option", "active", 0);
+    $('.row-service').textHeight({
+        activetit: true,
+        listcss: [{ cssname: ".title-sui"}],
+        wpointb: false,
+        widthpont: 420,
+        desbool: true,
+        listpos: [{ cssnamepos: ".description", cssheightnum: "3"}],
+        max: true
+    });
+    $('.service-group').textHeight({
+        activetit: true,
+        listcss: [{ cssname: ".service-name"}],
+        wpointb: false,
+        widthpont: 420,
+        desbool: true,
+        listpos: [{ cssnamepos: ".description", cssheightnum: "4"}],
+        max: true
+    });
+    $("#zoom_01").elevateZoom({
+        cursor: 'move'
+    });
+    if ($("#galleryLists").size() == 1) {
+        $('#galleryLists .slider-for').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            fade: false,
+            asNavFor: '#galleryLists .slider-nav'
+        });
+        $('#galleryLists .slider-nav').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            asNavFor: '#galleryLists .slider-for',
+            dots: false,
+            focusOnSelect: true
+        });
+        $('#galleryLists .slider-nav').on('afterChange', function (event, slick, currentSlide, nextSlide) {
+            //remove all active class
+            $('#galleryLists .slider-nav .slick-slide').removeClass('slick-current');
+            //set active class for current slide
+            $('#galleryLists .slider-nav .slick-slide:not(.slick-cloned)').eq(currentSlide).addClass('slick-current');
+        });
+        $('#galleryLists .slider-nav .slick-slide:not(.slick-cloned)').eq(0).addClass('slick-current');
+    }
 }
 /*=========================================================================*/
 function mypageload() {
