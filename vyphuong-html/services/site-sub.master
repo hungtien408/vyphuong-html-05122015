@@ -151,6 +151,16 @@
                     </div>
                     <div class="form-input">
                         <label class="form-lb">
+                            Vị trí công việc:</label>
+                        <div class="form-w">
+                            <asp:DropDownList ID="DropDownList4" CssClass="select-box selecta" runat="server">
+                                <asp:ListItem>Kế toán</asp:ListItem>
+                                <asp:ListItem>Kinh doanh</asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
                             Trình độ học vấn:</label>
                         <div class="form-w">
                             <asp:TextBox ID="TextBox1" CssClass="form-text" runat="server"></asp:TextBox>

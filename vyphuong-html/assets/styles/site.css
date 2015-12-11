@@ -1661,6 +1661,11 @@ hr
 {
     margin: 0 180px;
 }
+.selecta 
+{
+    width: 100%;
+    height: 28px;
+} 
 /*===download===*/
 .wrapper-news .title-download
 {
