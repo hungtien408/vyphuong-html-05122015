@@ -13,11 +13,11 @@
     <div class="library-group">
         <div class="colno-5">
             <div class="librarya">
-                <a href="#" class="library-img">
+                <a href="thu-vien-chi-tiet.aspx" class="library-img">
                     <img src="assets/images/img-library-1.jpg" alt="" />
                 </a>
                 <h5 class="library-name">
-                    <a href="#">BST tóc cô dâu đẹp 2016</a></h5>
+                    <a href="thu-vien-chi-tiet.aspx">BST tóc cô dâu đẹp 2016</a></h5>
             </div>
         </div>
         <div class="colno-5">
