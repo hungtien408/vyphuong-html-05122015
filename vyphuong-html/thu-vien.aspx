@@ -13,56 +13,56 @@
     <div class="library-group">
         <div class="colno-5">
             <div class="librarya">
-                <a href="thu-vien-chi-tiet.aspx" class="library-img">
+                <a class="library-img fancybox fancybox.iframe"  href="gallery.aspx">
                     <img src="assets/images/img-library-1.jpg" alt="" />
                 </a>
                 <h5 class="library-name">
-                    <a href="thu-vien-chi-tiet.aspx">BST tóc cô dâu đẹp 2016</a></h5>
+                    <a class="fancybox fancybox.iframe" href="gallery.aspx">BST tóc cô dâu đẹp 2016</a></h5>
             </div>
         </div>
         <div class="colno-5">
             <div class="librarya">
-                <a href="#" class="library-img">
+                <a class="library-img fancybox fancybox.iframe"  href="gallery.aspx">
                     <img src="assets/images/img-library-2.jpg" alt="" />
                 </a>
                 <h5 class="library-name">
-                    <a href="#">Tóc đẹp Thu Đông 2016</a></h5>
+                    <a class="fancybox fancybox.iframe" href="gallery.aspx">Tóc đẹp Thu Đông 2016</a></h5>
             </div>
         </div>
         <div class="colno-5">
             <div class="librarya">
-                <a href="#" class="library-img">
+                <a class="library-img fancybox fancybox.iframe"  href="gallery.aspx">
                     <img src="assets/images/img-library-3.jpg" alt="" />
                 </a>
                 <h5 class="library-name">
-                    <a href="#">BST kiểu tóc đi cùng năm tháng</a></h5>
+                    <a class="fancybox fancybox.iframe" href="gallery.aspx">BST kiểu tóc đi cùng năm tháng</a></h5>
             </div>
         </div>
         <div class="colno-5">
             <div class="librarya">
-                <a href="#" class="library-img">
+                <a class="library-img fancybox fancybox.iframe"  href="gallery.aspx">
                     <img src="assets/images/img-library-4.jpg" alt="" />
                 </a>
                 <h5 class="library-name">
-                    <a href="#">BST tóc ép phồng duyên dáng</a></h5>
+                    <a class="fancybox fancybox.iframe" href="gallery.aspx">BST tóc ép phồng duyên dáng</a></h5>
             </div>
         </div>
         <div class="colno-5">
             <div class="librarya">
-                <a href="#" class="library-img">
+                <a class="library-img fancybox fancybox.iframe"  href="gallery.aspx">
                     <img src="assets/images/img-library-5.jpg" alt="" />
                 </a>
                 <h5 class="library-name">
-                    <a href="#">Hướng dẫn tạo mẫu tóc đẹp</a></h5>
+                    <a class="fancybox fancybox.iframe" href="gallery.aspx">Hướng dẫn tạo mẫu tóc đẹp</a></h5>
             </div>
         </div>
         <div class="colno-5">
             <div class="librarya">
-                <a href="#" class="library-img">
+                <a class="library-img fancybox fancybox.iframe"  href="gallery.aspx">
                     <img src="assets/images/img-library-6.jpg" alt="" />
                 </a>
                 <h5 class="library-name">
-                    <a href="#">BST Kiểu tóc ngắn đẹp như Sao</a></h5>
+                    <a class="fancybox fancybox.iframe" href="gallery.aspx">BST Kiểu tóc ngắn đẹp như Sao</a></h5>
             </div>
         </div>
     </div>

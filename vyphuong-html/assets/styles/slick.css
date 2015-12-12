@@ -1,3 +1,8 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    }
 /* Slider */
 .slick-slider
 {
@@ -183,7 +188,7 @@
 }
 .gallery-smalls
 {
-    padding: 25px 45px;
+    padding: 10px 45px 0;
 }
 .slider-nav .slick-prev, .slider-nav .slick-next
 {
@@ -208,7 +213,7 @@
 }
 .gallery-small
 {
-    padding: 0 13px;
+    padding: 0 15px;
 }
 .gallery-slider .slick-prev
 {
