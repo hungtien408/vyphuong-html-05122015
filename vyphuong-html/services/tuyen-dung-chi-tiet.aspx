@@ -82,7 +82,165 @@
                 <p>20-12-2015 </p>
             </div>
         </div>
+        <div class="more-details">
+                    <a href="javascript:void(0);" data-toggle="modal" data-target="#myModalFile3">NỘP HỒ SƠ</a></div>
     </div>
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="cphPopup" runat="Server">
+    <div class="modal fade popup-form" id="myModalFile3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-480" role="document">
+            <div class="modal-file">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <div class="modal-body form-wrap form-file">
+                    <h4>
+                        Nộp hồ sơ</h4>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Họ và tên:</label>
+                        <div class="form-w">
+                            <asp:TextBox ID="txtFullName" CssClass="form-text" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Ngày, tháng, năm:</label>
+                        <div class="form-w">
+                            <asp:DropDownList ID="DropDownList1" CssClass="select-box" runat="server">
+                                <asp:ListItem>01</asp:ListItem>
+                                <asp:ListItem>02</asp:ListItem>
+                                <asp:ListItem>03</asp:ListItem>
+                                <asp:ListItem>04</asp:ListItem>
+                                <asp:ListItem>05</asp:ListItem>
+                                <asp:ListItem>06</asp:ListItem>
+                            </asp:DropDownList>
+                            <asp:DropDownList ID="DropDownList2" CssClass="select-box" runat="server">
+                                <asp:ListItem>01</asp:ListItem>
+                                <asp:ListItem>02</asp:ListItem>
+                                <asp:ListItem>03</asp:ListItem>
+                                <asp:ListItem>04</asp:ListItem>
+                                <asp:ListItem>05</asp:ListItem>
+                                <asp:ListItem>06</asp:ListItem>
+                            </asp:DropDownList>
+                            <asp:DropDownList ID="DropDownList3" CssClass="select-box" runat="server">
+                                <asp:ListItem>2015</asp:ListItem>
+                                <asp:ListItem>2014</asp:ListItem>
+                                <asp:ListItem>2013</asp:ListItem>
+                                <asp:ListItem>2012</asp:ListItem>
+                                <asp:ListItem>2011</asp:ListItem>
+                                <asp:ListItem>2010</asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Giới tính:</label>
+                        <div class="form-w">
+                            <asp:RadioButtonList ID="RadioButtonList1" CssClass="radioList" runat="server" RepeatDirection="Horizontal">
+                                <asp:ListItem>Nam</asp:ListItem>
+                                <asp:ListItem>Nữ</asp:ListItem>
+                            </asp:RadioButtonList>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Vị trí công việc:</label>
+                        <div class="form-w">
+                            <asp:DropDownList ID="DropDownList4" CssClass="select-box selecta" runat="server">
+                                <asp:ListItem>Kế toán</asp:ListItem>
+                                <asp:ListItem>Kinh doanh</asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Trình độ học vấn:</label>
+                        <div class="form-w">
+                            <asp:TextBox ID="TextBox1" CssClass="form-text" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Chuyên ngành đã học:</label>
+                        <div class="form-w">
+                            <asp:TextBox ID="TextBox2" CssClass="form-text" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Trình độ chuyên môn:</label>
+                        <div class="form-w">
+                            <asp:TextBox ID="TextBox3" CssClass="form-text" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Kinh nghiệm làm việc:</label>
+                        <div class="form-w">
+                            <asp:TextBox ID="TextBox4" CssClass="form-text" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Mức lương mong muốn:</label>
+                        <div class="form-w">
+                            <asp:TextBox ID="TextBox5" CssClass="form-text" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Trình độ ngoại ngữ:</label>
+                        <div class="form-w">
+                            <asp:TextBox ID="TextBox6" CssClass="form-text" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Điện thoại liên lạc:</label>
+                        <div class="form-w">
+                            <asp:TextBox ID="TextBox7" CssClass="form-text" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Địa chỉ thường trú:</label>
+                        <div class="form-w">
+                            <asp:TextBox ID="TextBox8" CssClass="form-text" runat="server"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label class="form-lb">
+                            Nộp CV:</label>
+                        <div class="form-w">
+                            <asp:FileUpload ID="FileUpload1" runat="server" />
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <asp:Button ID="btnLogin" CssClass="btn btn-primary btn-form" runat="server" Text="Nộp"
+                            ValidationGroup="SendInfo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal access full-->
+    <a href="javascript:void(0);" class="btn-trigger hidden" data-toggle="modal" data-target="#popupAcc">
+        link-a</a>
+    <div class="modal fade popup-text popup-form" id="popupAcc" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabelacc">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabelacc">
+                        Title</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="content-text">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </asp:Content>

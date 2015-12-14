@@ -1,9 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true"
     CodeFile="lien-he.aspx.cs" Inherits="lien_he" %>
+
 <%@ Register TagPrefix="asp" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=vi"></script>
-    <script src="assets/js/google-maps.js" type="text/javascript"></script>
+    <script src="assets/js/google-maps-pro.js" type="text/javascript"></script>
     <title>VY PHƯƠNG</title>
     <meta name="description" content="VY PHƯƠNG" />
 </asp:Content>
@@ -24,56 +25,12 @@
                         Số 18, Ngách 19/15 Kim Đồng, TP.Hà Nội</p>
                     <p>
                         <span class="icon-p">
-                            <img src="assets/images/icon-c-2.png" alt="" /></span><strong>Điện thoại:
-                        </strong>(04) 3664 9263</p>
+                            <img src="assets/images/icon-c-2.png" alt="" /></span><strong>Điện thoại: </strong>
+                        (04) 3664 9263</p>
                     <p>
                         <span class="icon-p">
                             <img src="assets/images/icon-c-3.png" alt="" /></span><strong>Fax: </strong>
                         (04) 3664 9265</p>
-                    <p>
-                        <span class="icon-p">
-                            <img src="assets/images/icon-c-4.png" alt="" /></span><strong>Email: </strong>
-                        <a href="mailTo:vinacarepharma@gmail.com">vinacarepharma@gmail.com</a></p>
-                </div>
-            </div>
-            <div class="address-contact">
-                <h2>
-                    VĂN PHÒNG MIỀN BẮC</h2>
-                <div class="address-content">
-                    <p>
-                        <span class="icon-p">
-                            <img src="assets/images/icon-c-1.png" alt="" /></span><strong>Địa chỉ: </strong>
-                        312/10/15 Trịnh Đình Trọng, P.Hoà Thạnh, Q.Tân Phú, TP.HCM</p>
-                    <p>
-                        <span class="icon-p">
-                            <img src="assets/images/icon-c-2.png" alt="" /></span><strong>Điện thoại:
-                        </strong>(08) 3976 0728 - (08) 3976 0729</p>
-                    <p>
-                        <span class="icon-p">
-                            <img src="assets/images/icon-c-3.png" alt="" /></span><strong>Fax: </strong>
-                        (08) 3976 0730</p>
-                    <p>
-                        <span class="icon-p">
-                            <img src="assets/images/icon-c-4.png" alt="" /></span><strong>Email: </strong>
-                        <a href="mailTo:vinacarepharma@gmail.com">vinacarepharma@gmail.com</a></p>
-                </div>
-            </div>
-            <div class="address-contact">
-                <h2>
-                    VĂN PHÒNG MIỀN NAM</h2>
-                <div class="address-content">
-                    <p>
-                        <span class="icon-p">
-                            <img src="assets/images/icon-c-1.png" alt="" /></span><strong>Địa chỉ: </strong>
-                        312/10/15 Trịnh Đình Trọng, P.Hoà Thạnh, Q.Tân Phú, TP.HCM</p>
-                    <p>
-                        <span class="icon-p">
-                            <img src="assets/images/icon-c-2.png" alt="" /></span><strong>Điện thoại:
-                        </strong>(08) 3976 0728 - (08) 3976 0729</p>
-                    <p>
-                        <span class="icon-p">
-                            <img src="../assets/images/icon-c-3.png" alt="" /></span><strong>Fax: </strong>
-                        (08) 3976 0730</p>
                     <p>
                         <span class="icon-p">
                             <img src="assets/images/icon-c-4.png" alt="" /></span><strong>Email: </strong>
@@ -140,7 +97,7 @@
                             <asp:RadCaptcha ID="RadCaptcha1" ForeColor="Red" Font-Bold="True" ValidationGroup="Register"
                                 runat="server" ErrorMessage="+ Mã an toàn: không chính xác." ValidatedTextBoxID="txtVerifyCode"
                                 Display="Dynamic" CaptchaLinkButtonText="Refesh" EnableRefreshImage="True">
-                                <captchaimage height="35" width="135" renderimageonly="True" />
+                                <CaptchaImage Height="35" Width="135" RenderImageOnly="True" />
                             </asp:RadCaptcha>
                         </div>
                     </div>
@@ -155,7 +112,27 @@
         </div>
         <div class="contact-right">
             <div class="mapw contact-map">
-                <div id="mapbox-1" class="wrap-mapbox">
+                <div class="mapw">
+                    <div id="mapbox-1" class="wrap-mapbox">
+                        <i>Nhập đỉa chỉ của bạn bên dưới để tìm đường đi</i>
+                        <div class="map-title">
+                            <div class="search-map">
+                                <div class="search-inmap">
+                                    <input id="start" class="text-search" type="text" value="Nhập địa chỉ..." /></div>
+                                <input id="getdiretion" class="getdiretion" type="button" onclick="calcRoute();"
+                                    value="Tìm đường đi" />
+                            </div>
+                        </div>
+                        <div class="map-content">
+                            <div id="map" class="mapbox">
+                            </div>
+                        </div>
+                        <div id="directionsPanel">
+                            <i>Kéo đường màu xanh trên bản đồ để thay đổi tuyến đường</i>
+                        </div>
+                    </div>
+                </div>
+                <%--<div id="mapbox-1" class="wrap-mapbox">
                     <i>Nhập đỉa chỉ của bạn bên dưới để tìm đường đi</i>
                     <div class="map-title">
                         <div class="search-map">
@@ -208,7 +185,7 @@
                     <div id="directionsPanel3">
                         <i>Kéo đường màu xanh trên bản đồ để thay đổi tuyến đường</i>
                     </div>
-                </div>
+                </div>--%>
             </div>
         </div>
     </div>

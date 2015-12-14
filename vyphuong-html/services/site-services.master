@@ -213,6 +213,13 @@
                         </div>
                     </div>
                     <div class="form-input">
+                        <label class="form-lb">
+                            Nộp CV:</label>
+                        <div class="form-w">
+                            <asp:FileUpload ID="FileUpload1" runat="server" />
+                        </div>
+                    </div>
+                    <div class="form-input">
                         <asp:Button ID="btnLogin" CssClass="btn btn-primary btn-form" runat="server" Text="Nộp"
                             ValidationGroup="SendInfo" />
                     </div>
