@@ -1,0 +1,13 @@
+- Loi scroll xuong ma hinh san pham hover van nam tren menu => fix file jquery.elevatezoom.js tim $('body').append(self.zoomContainer); sua thanh$('body #wrapper').append(self.zoomContainer); => roi fix site.css tim #header sua z-index cao hon z-index cua zoomContainer => sua z-index cua #header thanh 20
+
+- Loi image chi tiet khong tu crop theo kich thuoc => chinh css
+.product-details .details-left {
+    position: relative;
+    float: left;
+    width: 380px;
+}
+.product-details .details-left img 
+{
+    display: block;
+    width: 100%;
+}
