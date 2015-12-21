@@ -87,11 +87,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-1.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Vệ sinh công nghiệp</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy. 
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Vệ sinh công nghiệp</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,11 +102,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-2.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Nguồn nhân lực</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy.
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Nguồn nhân lực</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -113,11 +117,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-3.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Dịch vụ Giặt là</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy.
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Dịch vụ Giặt là</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,11 +132,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-4.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Dán nhãn - Đóng gói</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy.
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Dán nhãn - Đóng gói</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -139,11 +147,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-5.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Hệ thống mạng</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy.
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Hệ thống mạng</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -152,11 +162,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-6.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Dịch vụ bãi kho</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy.
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Dịch vụ bãi kho</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,11 +177,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-7.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Dịch vụ Vận tải</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy.
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Dịch vụ Vận tải</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -178,11 +192,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-8.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Nhập liệu - Thống kê</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy.
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Nhập liệu - Thống kê</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -191,11 +207,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-9.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Hệ thống máy móc</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy.
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Hệ thống máy móc</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -204,11 +222,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-10.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Dịch vụ PB - PG</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy.
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Dịch vụ PB - PG</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -217,11 +237,13 @@
                     <a href="#" class="service-img">
                         <img src="../assets/images/img-services-11.jpg" alt="" />
                     </a>
-                    <h5 class="service-name">
-                        <a href="#">Ký gửi hàng hoá</a></h5>
-                    <div class="description">
-                        Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
-                        elit, sed diam nonummy.
+                    <div class="service-content">
+                        <h5 class="service-name">
+                            <a href="#">Ký gửi hàng hoá</a></h5>
+                        <div class="description">
+                            Lorem ipsum dolor amet, cons ectetu adipiscing elit, sed diam nonummy. Adipiscing
+                            elit, sed diam nonummy.
+                        </div>
                     </div>
                 </div>
             </div>

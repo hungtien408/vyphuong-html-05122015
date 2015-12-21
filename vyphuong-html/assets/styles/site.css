@@ -1507,15 +1507,17 @@ hr
     display: block;
     font-size: 14px;
     line-height: 20px;
-    padding: 5px 12px;
+    padding: 5px 0;
     font-weight: 700;
-    float: left;
+}
+.servicea .service-content
+{
+    padding: 0 12px;
+    overflow: hidden;
 }
 .service-group .description
 {
-    float: left;
-    width: 210px;
-    padding-left: 12px;
+    width: 100%;
     overflow: hidden;
 }
 .ui-accordion .ui-accordion-header .ui-accordion-header-icon
