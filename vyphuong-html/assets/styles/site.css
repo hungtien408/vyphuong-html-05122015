@@ -1124,9 +1124,8 @@ hr
 }
 .career-box .career-content
 {
-    float: left;
-    width: 650px;
-    padding-left: 20px;
+    padding: 0 20px;
+    overflow: hidden;
 }
 .career-box .career-name a
 {
@@ -1145,7 +1144,7 @@ hr
 }
 .career-list .career-content
 {
-    width: 284px;
+    overflow: hidden;
 }
 .career-content .description
 {
@@ -1163,7 +1162,6 @@ hr
 .career-list .career-name a
 {
     font-size: 16px;
-    float: left;
     line-height: 20px;
 }
 #tb-career td
