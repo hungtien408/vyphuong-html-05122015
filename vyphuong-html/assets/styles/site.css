@@ -665,11 +665,12 @@ hr
     width: 100%;
 }
 .wrapper-video .video-details {
-    vertical-align: top;
-    float: left;
+    vertical-align: top;    
     overflow: hidden;
     width: 70%;
-    margin: 0 136px;
+    /*float: left;
+    margin: 0 136px;*/
+    margin: 0 auto;
 }
 /*======================================*/
 .wrapper-news, .wrapper-career
